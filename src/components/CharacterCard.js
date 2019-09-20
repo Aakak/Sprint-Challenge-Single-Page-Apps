@@ -1,18 +1,4 @@
 import React from "react";
-// import WelcomePage from "./WelcomePage";
-
-import styled from "styled-components";
-
-//Styles example
-// const MainDiv = styled.div`
-//   width: 900px;
-//   font-family: roboto;
-//   margin: 0 auto;
-//   padding-top: 30px;
-// `;
-{
-  /* <MainDiv className="nasa-list "> */
-}
 
 function CharacterCard(props) {
   return (
