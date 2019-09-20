@@ -37,3 +37,40 @@ main {
 header h1 {
   text-align: center;
 }
+
+
+.character-card{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  margin: auto;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  margin-bottom: 20px;
+}
+
+.button{
+  border: 3px solid black;
+  background: #b0e0e6;
+  font-size: 1.5rem;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+  display: flex;
+  margin: 0 auto;
+  width: 15%;
+  justify-content: center;
+  color: darkblue;
+  margin-bottom: 30px;
+}
+
+.search-form{
+ margin: 30px 10px 90px 700px;
+ width: 25%;
+ background-color: rgba(0, 0, 0, 0.7);
+ height: 40px;
+ align-items: center;
+ display: flex;
+ padding: 10px;
+ border-radius: 20px;
+ justify-content: center;
+}
