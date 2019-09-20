@@ -7,17 +7,17 @@ const Header = styled.div`
 `;
 
 const Button = styled.button`
-  border: 2px solid magenta;
-  background: pink;
+  border: 3px solid black;
+  background: #b0e0e6;
   font-size: 1.5rem;
-  padding: 15px;
+  padding: 10px 30px 10px 30px;
 `;
 
 export default function WelcomePage() {
   return (
     <section className="welcome-page">
       <Header>
-        <Button className="button">
+        <Button className="main-button">
           <Link to="/characters">Character List</Link>
         </Button>
         <h1>Welcome to the ultimate fan site!</h1>

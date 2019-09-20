@@ -28,10 +28,10 @@ const CharacterList = props => {
   return (
     <div className="character-list">
       <nav>
+        <FormikSearchForm characters={data} handler={setData} />
         <Link exact className="button" to="/">
           Home
         </Link>
-        <FormikSearchForm characters={data} handler={setData} />
       </nav>
 
       {data.map(character => (
